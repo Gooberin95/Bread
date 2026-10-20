@@ -6,7 +6,7 @@ class State(rx.State):
 def promo_banner() -> rx.Component:
     return rx.box(
         rx.hstack(
-            rx.text("Limited Time:", weight="bold", color="white"),
+            rx.text("TESTING TESTING TESTING", weight="bold", color="white"),
             rx.text("3 Months of Mojo for Just $99", weight="bold", color="#f97316"),
             rx.link("Subscribe & Save", href="#", color="white", underline="always"),
             spacing="2",
