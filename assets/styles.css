@@ -1,0 +1,8 @@
+@keyframes crawl {
+    0% { transform: translateY(100vh); }
+    100% { transform: translateY(-120%); }
+}
+
+.star-wars-crawl {
+    animation: crawl 10s linear forwards;
+}
